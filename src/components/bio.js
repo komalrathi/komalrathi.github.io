@@ -10,7 +10,7 @@ import * as React from "react"
 const Bio = () => {
   return (
     <div className="bio">
-      <h1> Hi I'm Komal! </h1>
+      <h1> Learn about Computer Science along with me! </h1>
     </div>
   )
 }

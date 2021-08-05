@@ -12,7 +12,7 @@ const BlogIndex = ({ data, location }) => {
  
 
   return (
-    <Layout location={location} title={"Komal's Blog"}>
+    <Layout location={location} title={"Komal Rathi's Blog"}>
       <Seo title="All posts" />
       <Bio />
       <ol style={{ listStyle: `none` }}>

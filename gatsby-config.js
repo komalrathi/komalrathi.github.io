@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Komal Rathi's Blog`,
     author: {
       name: `Komal Rathi`,
-      summary: `who is going to study computer science at university.`,
+      summary: `Computer science student at university.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A starter blog on Computer Science using Gatsby.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
 
   },
