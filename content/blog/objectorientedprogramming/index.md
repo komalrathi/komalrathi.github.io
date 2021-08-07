@@ -1,6 +1,6 @@
 ---
 title: "What is Object Oriented Programming?"
-date: "2021-08-10T22:12:03.284Z"
+date: "2021-08-05T22:12:03.284Z"
 description: "Comparing the way OOP is used in Python and JavaScript"
 ---
 
@@ -25,9 +25,9 @@ class Person(object):
         self.town = town
 ```
 
-In order to create an object, you have reuse the class, input the specific information, and assign it to a variable.
+In order to create an object, you have reuse the class, input the specific information, and then assign it to a variable.
 ```py
-newPerson = Person(Komal, 18, Birmingham)
+newPerson = Person("Komal", 18, "Birmingham")
 ```
 I now have created an object that I can easily access later on. 
 
@@ -35,7 +35,7 @@ I now have created an object that I can easily access later on.
 
 In original JavaScript, there was no option to create a class. Instead, an object had to be defined each time. 
 ```js
-let person = {name:"Komal", age:18, town:"Birmingham};
+let person = {name:"Komal", age:18, town:"Birmingham"};
 ```
 Alternatively, a function could be used, called, and then declared by assigning to a variable. 
 ```js
@@ -59,26 +59,53 @@ class Person {
         this.town = town
     }
     sayHello() {
-        console.log(` Hello ${this.name}! `);
+        console.log(`Hello ${this.name}!`);
     }
 }
 ``` 
 In order to create an object and then call the function (which is mimicking a method) :
 ```js
-let komal = new Person("Komal", 18, Birmingham);
+let komal = new Person("Komal", 18, "Birmingham");
 komal.sayHello ();
 ```
 
 ## Principles
 
 There are 4 main principles of OOP. 
-### 1. Encapsulation
-
-> This is the binding together of attributes, which is the data, and methods, which are the functions. This is in order to hide the implementation details so that the data is kept private, and can only be accessed by using the methods declared in the class description. This means that if the code is public, other users can use the class and modify it without causing a negative effect elsewhere in the program. 
-
-### 2. Abstraction
+### 1. Abstraction
 
 > This is the concept that one does not need to know how an object works or what the code behind it is. They only need to know the methods relevant to the object that can be called. For example, we don't need to know how a coffee machine works; we simple need to know how to use it in order to get coffee out.
+
+
+### 2. Encapsulation
+
+> This is the binding together of attributes, which is the data, and methods, which are the functions. This is in order to hide the implementation details so that the data is kept private, and can only be accessed by using the methods declared in the class description. This means that if the code is public, other users can use the class without causing a negative effect elsewhere in the program. 
+
+USE GETTERS AND SETTERS EXAMPLE
+doesn't actually keep it private
+#### Python
+```py
+```
+
+#### JavaScript
+```js
+class Person {
+    constructor(age) {
+        this.age = age;
+    }
+    get age() {
+        return this._age;
+    }
+    set age (newAge) {
+        if (newAge > 0) {
+            this._age = newAge;
+        } else {
+            console.log("Invalid age entered");
+        }
+    }
+}
+```
+
 
 ### 3. Inheritance
 
@@ -208,3 +235,9 @@ However Python and JavaScript are unable to support method overloading. This is 
 
 
 ## Comparing OOP in JavaScript and Python
+When it comes to encapsulation in both Python and JavaScript, there are no actual features in the language itself to keep the data private. Instead, data privatisation relies upon good faith. Programmers have designated the underscore as syntax for keeping a variable private, and expect that others who use the data will follow it. H
+
+
+
+don't actually keep private - underscore is used programmers only 
+expect that people will follow syntax but there is no formal rule
