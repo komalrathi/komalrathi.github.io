@@ -6,14 +6,13 @@ description: "Comparing the way OOP is used in Python and JavaScript"
 
 Object Oriented Programming allows a programmer to access data in the form of an object, rather than long blocks of code.
 
-Classes contain attributes and methods. They represent general cases and share similar attributes, hence acting like a blueprint. Methods are functions which are defined in the class, and describe the behaviour of the object.
+Classes contain attributes and methods. They represent general cases and share similar attributes, hence acting like a blueprint. Methods are functions which are defined in the class, and describe the behaviour of the class.
 Specific cases of classes can then be used containing unique values, and these are known as objects.
 
 It is beneficial because it allows long lines of code to be structured into classes, which are reusable sections of code. 
-Also, it makes the code easier to debug, as classes are self-contained. 
+Also, it makes the code easier to debug, since classes are self-contained. 
 
 ## Defining a class and creating an object
-
 ### Python
 
 Here is an example of a class I've created. 
@@ -25,7 +24,7 @@ class Person(object):
         self.town = town
 ```
 
-In order to create an object, you have reuse the class, input the specific information, and then assign it to a variable.
+In order to create an object, you have reuse the class, input specific information, and then assign it to a variable.
 ```py
 newPerson = Person("Komal", 18, "Birmingham")
 ```
@@ -66,11 +65,11 @@ class Person {
 In order to create an object and then call the function (which is mimicking a method) :
 ```js
 let komal = new Person("Komal", 18, "Birmingham");
-komal.sayHello ();
+komal.sayHello();
 ```
 
-## Principles
 
+## Principles
 There are 4 main principles of OOP. 
 ### 1. Abstraction
 
@@ -81,10 +80,20 @@ There are 4 main principles of OOP.
 
 > This is the binding together of attributes, which is the data, and methods, which are the functions. This is in order to hide the implementation details so that the data is kept private, and can only be accessed by using the methods declared in the class description. This means that if the code is public, other users can use the class without causing a negative effect elsewhere in the program. 
 
-USE GETTERS AND SETTERS EXAMPLE
-doesn't actually keep it private
 #### Python
 ```py
+class Person:
+    def __init__(self, age):
+        self._age = age
+
+    def get_age(self):
+        return self._age
+
+    def set_age(self, newAge):
+        if newAge > 0:
+            self._age = newAge
+        else :
+            print("Invalid age entered")
 ```
 
 #### JavaScript
@@ -194,7 +203,7 @@ firstStudent.hello()
 ```
 
 ##### JavaScript
-For JavaScript, if you want to keep the parent method, use ```super``` in front of the method to call it. If you want to add another method, simply add it after. 
+For JavaScript, if you want to keep the parent method, use ```super``` in front of the method to call it. If you want to add another method, simply add it afterwards. 
 ```js
 class Person {
     constructor (name,age,town) {
@@ -235,9 +244,6 @@ However Python and JavaScript are unable to support method overloading. This is 
 
 
 ## Comparing OOP in JavaScript and Python
-When it comes to encapsulation in both Python and JavaScript, there are no actual features in the language itself to keep the data private. Instead, data privatisation relies upon good faith. Programmers have designated the underscore as syntax for keeping a variable private, and expect that others who use the data will follow it. H
+When it comes to encapsulation in both Python and JavaScript, there are no actual features in the language itself to keep the data private. Instead, data privatisation relies upon good faith. 
 
-
-
-don't actually keep private - underscore is used programmers only 
-expect that people will follow syntax but there is no formal rule
+Programmers have designated the underscore as syntax for keeping a variable private, and expect that others who access the data will follow it. However, there are no rules enforcing this syntax, so the data can be accessed and manipulated, which does not follow the encapsulation principle.

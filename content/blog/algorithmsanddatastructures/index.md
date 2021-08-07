@@ -1,26 +1,48 @@
 ---
 title: "What exactly are algorithms and data structures?"
-date: "2021-08-06T22:12:03.284Z"
+date: "2021-08-07T22:12:03.284Z"
 description: "Talking about algorithms and data structures in the context of Python"
 ---
 ## Algorithms
 
 Firstly, what is an algorithm? It is simply a set of instructions; in the context of Computer Science, algorithms are used for solving problems as they provide step by step instructions for the computer to follow.
 
-### Orders of Growth & Big Oh Notation
+### Complexity
+Whenever someone creates an algorithm, there has to be a balance between time and space efficiency.
 
-Whenever someone creates a program, there has to be a balance between time and space efficiency.
-The goal of using orders of growth is to express the growth of the program's run time as the input becomes very large in order to gauge the efficiency of the program.
+The complexity of an algorithm is a way of comparing efficiency. It compares the efficiency relative to the size of the input.
 
+There are two types of complexity:  
+- Time complexity is the time taken for the algorithm/program to run.
+- Space complexity is the amount of memory that the algorithm/program will use. 
 
-Big Oh notation measures the upper bound of the asymptotic growth of the complexity of a program. It describes the worst case scenario when a program is run. It only evaluates the algorithm though, not the machine or the implementation.
+Ideally, we would want the algorithm to run as fast as possible. However, this would increase the financial cost, so there has to be a balance.
+The same applies for space complexity; using less memory requires a lower cost and also increases the number of different algorithms that are able to be run on the same hardware.
 
-When calculating the Big Oh value, the multiplicative and additive constants are ignored. This is because the dominant term is focussed on since it will contribute more as input size becomes very large.
+Ideally, you want a lower time complexity because this means that the algorithm will perform much better as the input size increases.
+1. O(1) - constant ****(most efficient)****
+2. O(log n) - logarithmic
+3. O(n) - linear
+4. O(n log n) - loglinear
+5. O(nⁱ) - polynomial where i is a constant
+6. O(eⁿ) - exponential ****(least efficient)****
+
+Any algorithm that has a complexity of O(nⁱ) or better, is known as tractable. An algorithm with a complexity of O(eⁿ) or worse, is known as intractable.
+
+For intractable problems, heuristic methods have to be chosen since they offer a reasonable time frame, even though the solutions are not entirely accurate. 
+
+#### Orders of Growth
+The goal of using orders of growth is to express the growth of the algorithm's run time as the input size varies in order to gauge the efficiency of the algorithm.
+
+#### Big O Notation
+Big O notation measures the upper bound of the asymptotic growth of an algorithm. It describes the worst case scenario when an algorithm is run. It only evaluates the algorithm though, not the machine or the implementation.
+
+When calculating the Big O value, the multiplicative and additive constants are ignored. This is because the dominant term is focussed on since it will contribute more as input size becomes very large.
 
 For example, O(2n² + 10n) --> O(n²) because n² is the dominant term. 
 
-#### Complexity
-
+#### Big Ω Notation
+Big Ω Notation is used to measure the lower bound of the asymptotic growth of an algorithm. It describes the best case scenario when an algorithm is run.
 
 
 ### Searching Algorithms
@@ -43,7 +65,7 @@ The complexity of a linear searching algorithm is O(n) since the algorithm check
 #### Bisection Search
 A bisection search algorithm requires for the list to be sorted in order to work. It uses a divide-and-conquer approach. 
 
-A divide-and-conquer approach simply breaks down the original problem into manageable and solvable chunks, then merges all the chunks together.
+A divide-and-conquer approach simply breaks down the original problem into manageable and solvable chunks, then merges all the chunks together in order to solve tthe original problem.
 
 ```py
 def binarySearch (my_list,num):
@@ -203,6 +225,53 @@ In order to improve the complexity, a correct method should be chosen in order t
 
 
 ## Data Structures
+A data structure is simply a way of organising data in a program so that it is able to be proccessed efficiently.
+Choosing the correct data structure is important as it will make the program more efficient and responsive.
+
+There are 2 types of data structures: static and dynamic.
+ - Static data structures have a fixed size which cannot change at run time (eg. an array)
+ - Dynamic data structures is able to change its memory capacity, making it memory efficient (eg. a linked list)
+
+ The memory required for dynamic data structures is acquired from a memory heap, which is the amount of memory allocated to a program at runtime.
+
+1. Array
+    - Data structure that holds certain number of elements of the same data type
+    ```py
+    myArr = [1,2,3,4,5]
+    ```
+    - Each position of the elements can be accessed directly using its index
+    - Values stored in an array are mutable
 
 
+2. Tuple
+    - Ordered sequence of elements of variable data types
+    - Immutable
+    ```py
+    myTuple = (54, "Hello World", 39)
+    ```
+    - Elements can be accessed by their index (like arrays)
+    - Iterable
 
+
+3. List
+    - Ordered sequence
+    - Elements can be accessed by their index
+    ```py
+    myList = [1,2,3,4,5]
+    ```
+    - Mutable
+    - Iterable
+
+
+4. Dictionary (Python)
+    - Stores pairs of data together: key and value
+    - Each key is unique
+    - Using key allows direct access to items stored within the dictionary
+    ```py
+    myDict = {
+        "student1" : "Alex",
+        "student2" : "Bob",
+        "student3" : "Charlie"
+    }
+    ```
+    - Can be nested (have multiple dictionaries inside a dictionary)
