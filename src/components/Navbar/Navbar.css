@@ -19,12 +19,12 @@
 
 .navbar-menu {
     display: grid;
-    grid-template-columns: repeat(2,auto);
-    grid-gap: 20px;
+    grid-template-columns: repeat(2);
+    grid-gap: 1em;
     list-style: none;
     text-align: center;
     width: 70vw;
-    justify-content: end;
+    justify-content: right;
     margin-top: 2.5em;
     margin-bottom: 2em;
 }
