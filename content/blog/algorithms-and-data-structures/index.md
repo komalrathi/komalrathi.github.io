@@ -275,3 +275,9 @@ There are 2 types of data structures: static and dynamic.
     }
     ```
     - Can be nested (have multiple dictionaries inside a dictionary)
+
+5. Binary Tree
+    - tree data structure consising of nodes and a root
+    - each node has at most two children which are referred to as left and right nodes
+    - each node contains data, pointer to right child, and pointer to left child
+    - able to reflect structural relationships in the data
