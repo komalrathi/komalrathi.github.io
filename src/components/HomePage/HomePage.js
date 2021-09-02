@@ -7,7 +7,12 @@ function HomePage() {
     return (
         <div>
             <Background />
-            <h1> Hello World!</h1>
+            <h1 style={
+                {
+                    paddingLeft:"2rem"
+                }
+            }> 
+            Hello World!</h1>
         </div>
     )
 }

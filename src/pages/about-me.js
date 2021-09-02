@@ -1,11 +1,30 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
+import Footer from '../components/Footer'
 
 function AboutMe() {
     return (
         <div>
             <Navbar />
-            <h1> About Me </h1>
+            <div
+            style={{
+                textAlign:"justify",
+                paddingRight:"2rem",
+                paddingLeft:"2rem"
+            }}>
+                <h1 
+                style={
+                    {
+                        textAlign:"center",
+                    }
+                }> 
+                    About Me 
+                </h1>
+                <p> 
+                    Hi! My name is Komal and I am a Computer Science student at Newnham College, University of Cambridge.
+                </p>
+            </div>
+            <Footer />
         </div>
     )
 }

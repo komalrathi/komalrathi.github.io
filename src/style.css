@@ -287,8 +287,9 @@ a:focus {
 }
 
 .bio {
-  display: flex;
-  margin-bottom: var(--spacing-16);
+  display: block;
+  margin-bottom: var(--spacing-10);
+  text-align: center;
 }
 
 .bio p {

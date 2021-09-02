@@ -10,12 +10,28 @@ const Layout = ({ location, title, children }) => {
   if (isRootPath) {
     header = (
       <h1 className="main-heading">
-        <Link to="/blog">{title}</Link>
+        <Link to="/blog"
+          style = {
+            {
+              fontSize:"2rem",
+              textAlign:"center",
+              display:"block"
+            }
+          }>
+            {title}
+        </Link>
       </h1>
     )
   } else {
     header = (
-      <Link className="header-link-home" to="/blog">
+      <Link className="header-link-home" to="/blog"
+      style = {
+        {
+          fontSize:"2rem",
+          textAlign:"center",
+          display:"block"
+        }
+      }>
         {title}
       </Link>
     )
@@ -31,8 +47,12 @@ const Layout = ({ location, title, children }) => {
         <main>
           {children}
         </main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
+        <footer style={
+          {
+            textAlign:"center"
+          }
+        }>
+          © Komal Rathi {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>

@@ -7,8 +7,7 @@ function Background() {
             <img 
                 style ={
                     {
-                        maxWidth: "100%", 
-                        paddingBottom:"1em",
+                        maxWidth: "100%",
                         overflow: 'hidden'
                     }
                 }
