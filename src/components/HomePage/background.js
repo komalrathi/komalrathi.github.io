@@ -1,5 +1,5 @@
 import React from 'react'
-import background from './background.jpg'
+import background from '/src/images/background.jpg'
 
 function Background() {
     return (

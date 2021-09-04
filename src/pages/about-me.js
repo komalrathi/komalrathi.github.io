@@ -21,7 +21,7 @@ function AboutMe() {
                     About Me 
                 </h1>
                 <p> 
-                    Hi! My name is Komal and I am a Computer Science student at Newnham College, University of Cambridge.
+                    Hi! My name is Komal and I am a first year Computer Science student at Newnham College, University of Cambridge.
                 </p>
             </div>
             <Footer />

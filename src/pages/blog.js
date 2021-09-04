@@ -10,7 +10,9 @@ const BlogIndex = ({ data, location }) => {
  
 
   return (
-    <Layout location={location} title={"Komal Rathi's Blog"} >
+    <Layout location={location} 
+    // title={"My Blog"} 
+    >
       <Seo title="All posts" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
@@ -24,7 +26,12 @@ const BlogIndex = ({ data, location }) => {
                 itemScope
                 itemType="http://schema.org/Article"
               >
-                <header>
+                <hr/>
+                <header style = {
+                  {
+                    paddingTop:"2.7rem",
+                  }
+                }>
                   <h2>
                     <Link to={post.fields.slug} itemProp="url">
                       <span itemProp="headline">{title}</span>
