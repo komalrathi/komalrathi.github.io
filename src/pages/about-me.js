@@ -1,17 +1,17 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer'
+import ProfilePic from '../components/ProfilePic'
+import Education from '../components/Education'
+import Experience from '../components/Experience'
+import Intro from '../components/Intro'
+import Project from '../components/Project'
 
 function AboutMe() {
     return (
         <div>
             <Navbar />
-            <div
-            style={{
-                textAlign:"justify",
-                paddingRight:"2rem",
-                paddingLeft:"2rem"
-            }}>
+            <div>
                 <h1 
                 style={
                     {
@@ -20,9 +20,26 @@ function AboutMe() {
                 }> 
                     About Me 
                 </h1>
-                <p> 
-                    Hi! My name is Komal and I am a first year Computer Science student at Newnham College, University of Cambridge.
-                </p>
+                <div style={
+                    {
+                        display: "grid",
+                        //textAlign:"center",
+                        gridTemplateColumns: "5% 60%", 
+                        gridTemplateRows: "15rem",
+                        gridColumnGap: "15rem",
+                        marginLeft:"3rem",
+                    }
+                }>
+                    <ProfilePic />
+                    <Intro />
+                </div>
+
+                <Experience />
+
+                <Project />
+
+                <Education />
+
             </div>
             <Footer />
         </div>

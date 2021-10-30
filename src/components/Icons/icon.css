@@ -1,0 +1,22 @@
+.button {
+    border: none;
+    text-decoration: none;
+    background: none;
+}
+
+.icon {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.5s;
+    height:5rem;
+}
+
+.icon:hover {
+    opacity:1;
+	transition:0.5s;
+    transform: scale(1.2);
+}
+
+.icon:focus {
+	opacity: 1;
+}

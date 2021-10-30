@@ -3,9 +3,9 @@ module.exports = {
     title: `Komal Rathi's Blog`,
     author: {
       name: `Komal Rathi`,
-      summary: `Computer science Student at University of Cambridge.`,
+      summary: `Computer Science Student at University of Cambridge.`,
     },
-    description: `A starter blog on Computer Science using Gatsby.`,
+    description: `A starter blog about Computer Science using Gatsby.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
 
   },
@@ -116,7 +116,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon:  `src/images/gatsby-icon.png`
+        icon: `src/images/gatsby-icon.png`
       },
     },
     `gatsby-plugin-react-helmet`,

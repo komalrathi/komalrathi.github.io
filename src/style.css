@@ -121,26 +121,33 @@ h1 {
   font-weight: var(--fontWeight-black);
   font-size: var(--fontSize-6);
   color: var(--color-heading-black);
+  font-family: Concert One;
+
 }
 
 h2 {
   font-size: var(--fontSize-5);
+  font-family: Andada Pro;
 }
 
 h3 {
   font-size: var(--fontSize-4);
+  font-family: Andada Pro;
 }
 
 h4 {
   font-size: var(--fontSize-3);
+  font-family: Andada Pro;
 }
 
 h5 {
   font-size: var(--fontSize-2);
+  font-family: Andada Pro;
 }
 
 h6 {
   font-size: var(--fontSize-1);
+  font-family: Andada Pro;
 }
 
 h1 > a {
@@ -165,6 +172,7 @@ p {
   --x-height-multiplier: 0.35;
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
   padding: var(--spacing-0);
+  font-family: Lora;
 }
 
 ul,

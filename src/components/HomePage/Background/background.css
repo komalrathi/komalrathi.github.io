@@ -1,0 +1,29 @@
+.image {
+    min-height: 100%;
+    min-width: 100%;
+    background-image: url("background.jpg");
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(210, 210, 210);
+    background-blend-mode: multiply;
+}
+
+.heading {
+    color: black;
+    text-align: center;
+    padding-top: 250px;
+    font-size: 6rem;
+    /* font-family: 'Josefin Sans';
+    font-weight: 200; */
+    font-family:'Comfortaa';
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    order: 2;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20rem;
+}

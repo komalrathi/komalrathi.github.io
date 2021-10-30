@@ -7,7 +7,7 @@ const Footer = () => {
                 textAlign:"center",
                 display:"block",
                 color:"black",
-                marginTop:"6rem",
+                marginTop:"2rem",
                 marginBottom:"0",
                 height:"7vh"
             }
