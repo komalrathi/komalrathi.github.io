@@ -1,18 +1,10 @@
 import React from 'react'
 import ExperienceIcon from '../Icons/ExperienceIcon'
+import './block.css'
 
 function ExperienceBlock(props) {
     return(
-        <div style={
-            {
-                display: "grid",
-                gridTemplateColumns: "5% 60%", 
-                gridTemplateRows: "15rem",
-                gridColumnGap: "5rem",
-                marginLeft:"20%",
-                marginBottom:"3rem"
-            }
-        }>
+        <div className="block">
             
             <ExperienceIcon /> 
 

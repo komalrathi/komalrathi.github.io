@@ -4,19 +4,19 @@
     background: none;
 }
 
-.icon {
+.social-icon {
     cursor: pointer;
     opacity: 0.7;
-    transition: 0.5s;
+    transition: 0.7s;
     height:5rem;
 }
 
-.icon:hover {
+.social-icon:hover {
     opacity:1;
-	transition:0.5s;
+	transition:0.7s;
     transform: scale(1.2);
 }
 
-.icon:focus {
+.social-icon:focus {
 	opacity: 1;
 }

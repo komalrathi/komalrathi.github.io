@@ -1,6 +1,6 @@
 import React from "react"
 import GitHub from '/src/images/github.png'
-import './icon.css'
+import './social-icon.css'
 
 class GitHubIcon extends React.Component {
     constructor() {
@@ -17,7 +17,7 @@ class GitHubIcon extends React.Component {
             <div>
                 <button onClick = {this.handleClick} className="button"> 
                     <img
-                    className="icon"
+                    className="social-icon"
                     src={GitHub} 
                     alt="GitHub logo" />
                 </button>

@@ -1,6 +1,6 @@
 import React from 'react'
 import LinkedIn from '/src/images/linkedin.png'
-import "./icon.css"
+import "./social-icon.css"
 
 class LinkedInIcon extends React.Component {
     constructor() {
@@ -17,7 +17,7 @@ class LinkedInIcon extends React.Component {
             <div>
                 <button onClick={this.handleClick} className="button">
                     <img
-                        className="icon"
+                        className="social-icon"
                         src={LinkedIn} 
                         alt="LinkedIn logo" />
                 </button>

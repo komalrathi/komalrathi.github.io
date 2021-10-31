@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from '/src/images//project.png'
+import './page-icon.css'
 
 function ProjectIcon() {
     return (
@@ -7,14 +8,7 @@ function ProjectIcon() {
             <img
                 src={Project} 
                 alt="Project Icon"
-                style = {
-                    {
-                        textAlign:"center",
-                        height:"5.5rem",
-                        float:"left",
-                        transform:"translate(0%, 60%)"
-                    }
-                }
+                className="page-icon"
             />
         </div>
     )

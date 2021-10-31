@@ -3,16 +3,7 @@ import ProjectIcon from '../Icons/ProjectIcon'
 
 function ProjectBlock(props) {
     return(
-        <div style={
-            {
-                display: "grid",
-                gridTemplateColumns: "5% 60%", 
-                gridTemplateRows: "15rem",
-                gridColumnGap: "5rem",
-                marginLeft:"20%",
-                marginBottom:"3rem"
-            }
-        }>
+        <div className="block">
             
             <ProjectIcon /> 
 

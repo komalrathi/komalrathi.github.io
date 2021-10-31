@@ -58,7 +58,7 @@
     color:white;
     text-decoration: none;
     padding: 0.5rem 1.5rem;
-    transition: 0.5s;
+    transition: 0.7s;
     font-size: 1.3rem;
 }
 
@@ -66,5 +66,5 @@
     opacity:1;
 	font-size:135%;
 	color:#FEFEFE;
-    transition: 0.5s;
+    transition: 0.7s;
 }
