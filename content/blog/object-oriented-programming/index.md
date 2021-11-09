@@ -9,6 +9,8 @@ Object Oriented Programming allows a programmer to access data in the form of an
 Classes contain attributes and methods. They represent general cases and share similar attributes, hence acting like a blueprint. Methods are functions which are defined in the class, and describe the behaviour of the class.
 Specific cases of classes can then be used containing unique values, and these are known as objects.
 
+OOP follows a bottom-up approach, meaning the classes are designed individually, then they are integrated together to form a program.
+
 It is beneficial because it allows long lines of code to be structured into classes, which are reusable sections of code. 
 Also, it makes the code easier to debug, since classes are self-contained. 
 
