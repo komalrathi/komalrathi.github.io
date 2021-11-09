@@ -1,11 +1,12 @@
 ---
 title: "What are Software Engineering Methodologies?"
 date: "2021-08-09T22:12:03.284Z"
-description: "Comparing the 2 main software engineering methodologies"
+description: "Comparing the 3 main software engineering methodologies"
 ---
+A software engineering methodology refers to the process of working on a project and aims to provide the best approach to the development of the product. By having a clear methodology, it allows the team to have more structure while working, and provide a more accurate timeline for the delivery of a product.
 
 ## Agile
-Agile philosophy focusses on a team based approach providing rapid delivery of the product, with a main focus on customer satisfaction. The tasks are split into sprints, which last for 1-4 weeks, and require high intensity effort from the whole team.
+Agile philosophy focusses on a team based approach providing rapid delivery of the product, with a main focus on customer satisfaction. The tasks are split into sprints, which last for 1-4 weeks, and require high intensity effort from the whole team. Communication is key during the process and the developers regularly ask for feedback so that the product best meets the consumer's requirements. 
 
 #### Pros
 - Encourages customer/ stakeholder involvlement so product will have a higher customer satisfaction
@@ -18,8 +19,9 @@ Agile philosophy focusses on a team based approach providing rapid delivery of t
 
 
 ## Waterfall
-There are 7 distinct phases; each phase needs to be completed before progressing onto next phase. 
-The 7 stages are conception, initialistaion and analysis, design, construction and coding, testing, and implementation.
+There are 7 distinct stages that are arranged in a sequence; each stage needs to be completed before progressing onto next stage. 
+The 7 stages are conception, initialistaion and analysis, design, construction and coding, testing, and implementation. 
+As the name suggests, the team does not return to a previous stage during the process (waterfalls only flow in one direction).
 
 
 #### Pros
@@ -48,7 +50,6 @@ In order to create a lean system, you need to first identify the value in the pr
 #### Cons
 - Can lead to delays as work is not delivered preemptively
 - Lack of strategy specified so can lose sight of overall product
-
 
 
 ## My Opinion
