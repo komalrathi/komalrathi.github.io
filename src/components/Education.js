@@ -15,13 +15,13 @@ function Education() {
             <AcademicBlock 
                 place = {"University of Cambridge"}
                 year = {"2021-2024"}
-                subject = {"First year BA Computer Science"}
+                subject = {"First year BA Computer Science student"}
             />
             <AcademicBlock 
                 place = {"King Edward VI High School for Girls"}
                 year = {"2019-2021"}
                 grades = {"A-Levels : 2A*s and 2As"}
-                subject = {"in Biology, Chemistry, Maths and Further Maths"}
+                subject = {"in Maths, Further Maths, Biology and Chemistry"}
             />
             <AcademicBlock 
                 place = {"Nottingham High School"}
