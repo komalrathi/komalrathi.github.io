@@ -30,21 +30,26 @@ The 7 stages are conception, initialistaion and analysis, design, construction a
 
 #### Cons
 - Testing is done at the last stage, so it is hard to fix the code if there is a bug
-- Difficuly to make changes to the project if the team struggle
- - Less customer/ stakeholder involvement
+- Difficult to make changes to the project if the team are struggling
+- Less customer/ stakeholder involvement
 
 
 ## Lean Development
 Lean Development is focussed on minimising wastage and increasing the productivity of a team.
 
+In order to create a lean system, you need to first identify the value in the product you want to deliver. You now map the workflow, seeing where value is being generated and the proportion of value each process provides. This leads to the creation of a continuous workflow. Then, you create a pull system which checks that work is only being pulled if there is a demand; this reduces the amount of resources that are wasted and saves time. Continuous improvement is at the core of lean development; problems can occur at any stage of the process so it is important to be constantly improving the product throughout the process.
+
 #### Pros
 - Cost of development is reduced
-- 
+- Only develop products that are required hence saving time
+- Provide a better quality product for customer since non-valuable tasks are removed from production process, allowing more time to be spend refining the product
 
 
 #### Cons
-- 
+- Can lead to delays as work is not delivered preemptively
+- Lack of strategy specified so can lose sight of overall product
 
 
 
 ## My Opinion
+My ideal methodology would combine the structural aspect of waterfall with the flexibility of agile. Testing should be done regularly throughout the project but the goals and deadlines should be specified before the project starts. Also, stakeholder involvement should be present throughout production in order to best cater the product to the consumer.
