@@ -9,11 +9,6 @@ function Intro() {
                     textAlign:"justify",
                     marginLeft:"2rem",
                     marginRight:"2rem"
-                    // flexDirection:"column",
-                    // justifyContent:"flex-start",
-                    // flexWrap:"wrap",
-                    // alignItems:"center",
-                    // justifyContent:"space-around",
                 }
             }> 
                 Hi! My name is Komal and I am a first year Computer Science student at Newnham College, University of Cambridge.

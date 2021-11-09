@@ -23,7 +23,6 @@ function AboutMe() {
                 <div style={
                     {
                         display: "grid",
-                        //textAlign:"center",
                         gridTemplateColumns: "5% 60%", 
                         gridTemplateRows: "15rem",
                         gridColumnGap: "15rem",
