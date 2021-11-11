@@ -13,7 +13,7 @@ Static is when type checking occurs during compile time. Dynamic is when type ch
 Since the type is checked at compile time, this means that the data types are immutable once assigned.
 
 
-However you can create your own data typed for example in OCaml :
+However you can create your own data types for example in OCaml :
 ```ocaml
 type fruit = 
     Orange 
