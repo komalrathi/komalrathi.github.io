@@ -1,10 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import Navbar from "./Navbar/Navbar"
-import "@fontsource/andada-pro"
-import "@fontsource/lora"
-import "@fontsource/biorhyme"
-import "@fontsource/playfair-display"
 
 
 const Layout = ({ location, title, children }) => {
