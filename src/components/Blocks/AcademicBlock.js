@@ -1,10 +1,15 @@
 import React from 'react'
-import AcademicIcon from '../Icons/AcademicIcon'
 
 function AcademicBlock(props) {
         return (
             <div className="block">
-                <AcademicIcon />
+                <div>
+                <img
+                    src={props.image} 
+                    alt="School Logo"
+                    className="page-icon"
+                />
+                </div>
 
                 <div style={
                     {

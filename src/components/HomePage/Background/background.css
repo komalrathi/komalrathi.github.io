@@ -5,18 +5,17 @@
     position: fixed;
     background-size: cover;
     background-position: center;
-    background-color: rgb(210, 210, 210);
     background-blend-mode: multiply;
+    background-color: rgba(0,0,0,0.45);
 }
 
 .heading {
-    color: black;
+    color: white;
     text-align: center;
     padding-top: 250px;
     font-size: 6rem;
-    /* font-family: 'Josefin Sans';
-    font-weight: 200; */
-    font-family:'Comfortaa';
+    font-family: 'Josefin Sans';
+    font-weight: 200;
     font-weight: 500;
 }
 

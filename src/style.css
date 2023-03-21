@@ -1,11 +1,9 @@
 /* CSS Custom Properties Definitions */
-@import "@fontsource/concert-one";
-@import "@fontsource/lora";
-@import "@fontsource/andada-pro";
+@import "@fontsource/aleo";
+@import "@fontsource/nunito";
+@import "@fontsource/lato";
 @import "@fontsource/josefin-sans";
-@import "@fontsource/comfortaa";
-@import "@fontsource/biorhyme";
-@import "@fontsource/playfair-display";
+
 
 
 :root {
@@ -122,6 +120,7 @@ h4,
 h5,
 h6 {
   font-weight: var(--fontWeight-bold);
+  margin-top: var(--spacing-6);
   color: var(--color-heading);
 }
 
@@ -129,33 +128,33 @@ h1 {
   font-weight: var(--fontWeight-black);
   font-size: var(--fontSize-6);
   color: var(--color-heading-black);
-  font-family: Concert One;
+  font-family: Aleo;
 
 }
 
 h2 {
   font-size: var(--fontSize-5);
-  font-family: Andada Pro;
+  font-family: Nunito;
 }
 
 h3 {
   font-size: var(--fontSize-4);
-  font-family: Andada Pro;
+  font-family: Nunito;
 }
 
 h4 {
   font-size: var(--fontSize-3);
-  font-family: Andada Pro;
+  font-family: Nunito;
 }
 
 h5 {
   font-size: var(--fontSize-2);
-  font-family: Andada Pro;
+  font-family: Nunito;
 }
 
 h6 {
   font-size: var(--fontSize-1);
-  font-family: Andada Pro;
+  font-family: Nunito;
 }
 
 h1 > a {
@@ -180,7 +179,8 @@ p {
   --x-height-multiplier: 0.35;
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
   padding: var(--spacing-0);
-  font-family: Lora;
+  font-family: Lato;
+  font-size: 1.2rem;
 }
 
 ul,

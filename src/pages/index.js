@@ -1,13 +1,9 @@
 import React from 'react'
 import App from './App'
-import "@fontsource/concert-one"
-import "@fontsource/lora"
-import "@fontsource/andada-pro"
-
+import "@fontsource/aleo"
+import "@fontsource/nunito"
+import "@fontsource/lato"
 import "@fontsource/josefin-sans"
-import "@fontsource/comfortaa"
-import "@fontsource/biorhyme"
-import "@fontsource/playfair-display"
 
 
 import ReactGA from 'react-ga';

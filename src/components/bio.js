@@ -6,31 +6,12 @@
  */
 
 import * as React from "react"
-import Blog from '/src/images/blog.png'
 
 const Bio = () => {
   return (
-    <div className="bio" style={
-      {
-        display: "grid",
-        gridTemplateColumns: "70% 10%", 
-        gridTemplateRows: "15rem",
-        gridColumnGap: "1rem",
-      }
-    }>
-      <h1> 
-      Learn about Computer Science along with me! 
-      </h1>
-      <img
-          src={Blog} 
-          alt="Blog cartoon"
-          style ={
-            {
-              height:"15rem",
-            }
-          }
-      />
-    </div>
+      <h2>
+      Welcome to my blog, where I'll be writing about topics in Computer Science that interest me.
+      </h2>
   )
 }
 

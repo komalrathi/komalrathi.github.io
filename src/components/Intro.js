@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from "gatsby";
 
 function Intro() {
     return (
@@ -11,9 +10,9 @@ function Intro() {
                     marginRight:"2rem"
                 }
             }> 
-                Hi! My name is Komal and I am a first year Computer Science student at Newnham College, University of Cambridge.
+                Hi! My name is Komal and I am a second year Computer Science student at Newnham College, University of Cambridge.
                 <br></br>
-                I've also been writing a blog about new things I am learning about related to Computer Science. If you're interested, please <Link to="/blog" itemProp="url"> check it out</Link> !
+                I am particularly interested in security engineering, such as cryptography and data privacy.
             </p>
         </div>
     )

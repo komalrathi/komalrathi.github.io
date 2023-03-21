@@ -9,12 +9,11 @@ import "./src/style.css"
 // Highlighting for code blocks
 import "prismjs/themes/prism.css"
 
-import "@fontsource/londrina-shadow"
-import "@fontsource/bungee-inline"
-import "@fontsource/concert-one"
-import "@fontsource/josefin-sans"
-import "@fontsource/comfortaa"
 
+import "@fontsource/aleo"
+import "@fontsource/nunito"
+import "@fontsource/lato"
+import "@fontsource/josefin-sans"
 
 
 

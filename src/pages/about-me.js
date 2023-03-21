@@ -27,17 +27,18 @@ function AboutMe() {
                         gridTemplateRows: "15rem",
                         gridColumnGap: "15rem",
                         marginLeft:"3rem",
+                        paddingBottom:"3rem"
                     }
                 }>
                     <ProfilePic />
                     <Intro />
                 </div>
-
+                
                 <Experience />
-
-                <Project />
-
+                <br></br>
                 <Education />
+                
+                <Project />
 
             </div>
             <Footer />
