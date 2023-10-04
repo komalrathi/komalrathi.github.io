@@ -1,6 +1,5 @@
 import React from 'react'
 import AcademicBlock from './Blocks/AcademicBlock'
-import Cambridge from '../images/cambridge.png'
 import Nottingham from '../images/nhs.png'
 import KEHS from '../images/kehs.png'
 
@@ -19,11 +18,10 @@ function Education() {
                 }> Education 
             </h1>
 
-            <AcademicBlock 
-                image = {Cambridge}
-                place = {"University of Cambridge"}
-                year = {"2021-2024"}
-                subject = {"Second year BA Computer Science student"}
+            <AcademicBlock
+                place= {"University of Manchester"}
+                year = {"2023-2026"}
+                subject= {"First year BSc Computer Science student"}
             />
             <AcademicBlock 
                 image = {KEHS}

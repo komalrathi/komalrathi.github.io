@@ -24,8 +24,7 @@ function Experience() {
                 place={"Microsoft"}
                 role={"Software Engineering Intern"}
                 date={"July - Sept 2023"}
-                info={""}
-
+                info={"Worked in Azure for Operators division \n Scoped and planned my project, and wrote a specification, design and test strategy \n Developed a tool to troubleshoot TCP issues within the 5G core \n Used Kubernetes and Rust to monitor task performance within 5G core"}
             />
 
             <ExperienceBlock
@@ -34,7 +33,6 @@ function Experience() {
                 role={"Software Engineering Intern"}
                 date={"July - Sept 2022"}
                 info={"Worked in Azure for Operators division. \n Created an application in C# to monitor health of a service. \n Finished intern project ahead of time. \n Wrote a design and specification for a new feature, and started implementing this."}
-
             />
 
         </div>

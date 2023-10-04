@@ -3,7 +3,7 @@ module.exports = {
     title: `Komal Rathi's Blog`,
     author: {
       name: `Komal Rathi`,
-      summary: `Computer Science Student at University of Cambridge.`,
+      summary: `Computer Science Student.`,
     },
     description: `A starter blog about Computer Science using Gatsby.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
