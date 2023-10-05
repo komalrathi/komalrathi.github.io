@@ -16,7 +16,7 @@ function Project() {
       <ProjectBlock
         project={"Personal Website and Blog"}
         date={""}
-        info={"Learnt React and Gatsby to create this website and blog"}
+        info={"Created using React and Gatsby"}
       />
     </div>
   );

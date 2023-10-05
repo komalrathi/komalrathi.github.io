@@ -8,10 +8,12 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "@babel/eslint-parser": "^7.22.15",
     "@fontsource/aleo": "^5.0.15",
     "@fontsource/josefin-sans": "^5.0.14",
     "@fontsource/lato": "^5.0.14",
     "@fontsource/nunito": "^5.0.12",
+    "feed": "^4.2.2",
     "gatsby": "^5.12.5",
     "gatsby-plugin-feed": "^5.12.0",
     "gatsby-plugin-gatsby-cloud": "^5.12.1",

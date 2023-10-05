@@ -1,6 +1,8 @@
 .page-icon {
-    text-align:center;
-    height:5.5rem;
-    float:left;
-    transform:translate(0%, 50%);
-} 
+  text-align: center;
+  height: 5.5rem;
+  float: left;
+  transform: translate(0%, 50%);
+  position: relative;
+  right: 5rem;
+}

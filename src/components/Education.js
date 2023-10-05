@@ -20,7 +20,7 @@ function Education() {
         {" "}
         Education
       </h1>
-
+    
       <AcademicBlock
         image={Manchester}
         place={"University of Manchester"}
