@@ -10,7 +10,7 @@ function Project() {
           textAlign: "center",
         }}
       >
-        Projects
+        Personal Projects
       </h1>
 
       <ProjectBlock
