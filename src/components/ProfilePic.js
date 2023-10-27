@@ -6,7 +6,7 @@ function ProfilePic() {
     <div>
       <img
         src={Picture}
-        alt="Picture of Komal Rathi"
+        alt="Komal Rathi"
         style={{
           width: "17rem",
           borderRadius: "100%",

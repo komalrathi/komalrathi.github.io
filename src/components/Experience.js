@@ -24,7 +24,7 @@ function Experience() {
         role={"Software Engineering Intern"}
         date={"July - Sept 2023"}
         info={
-          "Worked in Azure for Operators division \n Scoped and planned my project, and wrote a specification, design and test strategy \n Developed a tool to troubleshoot TCP issues within the 5G core \n Used Kubernetes and Rust to monitor task performance within 5G core"
+          "Worked in Azure for Operators division \n Scoped and planned my project, and wrote a specification, design and test strategy \n Developed a Python tool to troubleshoot TCP issues within the 5G core \n Used Kubernetes and Rust to monitor task performance within 5G core"
         }
       />
 

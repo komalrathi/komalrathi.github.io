@@ -9,10 +9,12 @@ import * as React from "react";
 
 const Bio = () => {
   return (
-    <h2>
+    <h1 style= {{ 
+      fontFamily: "Aleo" 
+      }}>
       Welcome to my blog, where I'll be writing about topics in Computer Science
       that interest me.
-    </h2>
+    </h1>
   );
 };
 
