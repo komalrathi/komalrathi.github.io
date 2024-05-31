@@ -5,7 +5,7 @@ module.exports = {
       name: `Komal Rathi`,
       summary: `Computer Science Student.`,
     },
-    description: `A blog about Computer Science using Gatsby.`,
+    description: `A blog about Computer Science Topics using Gatsby.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
 
   },
@@ -16,6 +16,15 @@ module.exports = {
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
+          `gatsby-remark-autolink-headers`,
+        ],
       },
     },
     {
@@ -41,6 +50,13 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
+          {
+            resolve: `gatsby-remark-katex`,
+            options: {
+              // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
+              strict: `ignore`
+            }
+          },  
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
