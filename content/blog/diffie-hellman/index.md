@@ -38,8 +38,6 @@ S is now the shared secret key.
 
 ![Diagram of Diffie Hellman Key Exchange](diagram.png "Diagram of Diffie Hellman Key Exchange")
 
-
-### Mathematical Proof for Diffie-Hellman Key Exchange
 You may be wondering why the shared secret key is the same for both Alice and Bob. This can be proven mathematically using the properties of modular arithmetic.
 $$
 \text{For Alice, } S = B^{a_{Alice}} mod P
