@@ -12,8 +12,7 @@ const Bio = () => {
     <h1 style= {{ 
       fontFamily: "Aleo" 
       }}>
-      Welcome to my blog, where I'll be writing about topics in Computer Science
-      that interest me.
+      Welcome to my blog, where I love to write about my learnings and experiences in the field of Computer Science!
     </h1>
   );
 };

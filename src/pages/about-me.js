@@ -5,7 +5,7 @@ import ProfilePic from '../components/ProfilePic'
 import Education from '../components/Education'
 import Experience from '../components/Experience'
 import Intro from '../components/Intro'
-import Project from '../components/Project'
+// import Project from '../components/Project'
 
 function AboutMe() {
     return (
@@ -38,7 +38,7 @@ function AboutMe() {
                 <br></br>
                 <Education />
                 
-                <Project />
+                {/* <Project /> */}
 
             </div>
             <Footer />

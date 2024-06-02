@@ -10,8 +10,7 @@ function Intro() {
           marginRight: "2rem",
         }}
       >
-        Hi! My name is Komal and I am a first year Computer Science student at
-        University of Manchester.
+        Hi! My name is Komal and I am a Computer Science student.
         <br></br>I am particularly interested in security engineering, such as
         cryptography and data privacy.
       </p>

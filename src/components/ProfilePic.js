@@ -8,10 +8,10 @@ function ProfilePic() {
         src={Picture}
         alt="Komal Rathi"
         style={{
-          width: "17rem",
+          width: "19rem",
           borderRadius: "100%",
           display: "flex",
-          margin: "0.5rem",
+          margin: "0.1rem",
           flexDirection: "column",
           justifyContent: "flex-start",
           flexWrap: "wrap",

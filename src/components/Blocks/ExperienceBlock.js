@@ -9,13 +9,20 @@ function ExperienceBlock(props) {
                     src={props.image} 
                     alt="Company Logo"
                     className="page-icon"
+                    style={
+                        {
+                            width: "11em",
+                            paddingRight: "3em",
+                            marginTop: "3em",
+                        }
+                    }
                 />
                 </div>
 
                 <div style={
                     {
                         justifyContent:"center",
-                        alignItems:"center"
+                        alignItems:"center",
                     }
                 }>
 
